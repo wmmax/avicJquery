@@ -1,0 +1,179 @@
+section {
+  width: 100%;
+}
+
+input, button {
+  outline: none;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 20px 50px;
+  font-size: 14px;
+  color: #ffffff;
+  background: #0F2F2F;
+  cursor: pointer;
+}
+
+input[type=text] {
+  border: none;
+  background: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 30px;
+  border-bottom: 1px solid #425066;
+  margin: 0 8px;
+}
+
+#main {
+  display: block;
+  height: 100vh;
+  background: #4A9797;
+}
+
+#main .content-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .content-wrapper .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .content-wrapper .content .taskManager {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#main .content-wrapper .content .taskManager .task-group .task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 0;
+}
+
+#main .content-wrapper .content .taskManager .task-group .task input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+}
+
+#main .content-wrapper .content .taskManager .task-group .task .delete {
+  content: url("../../img/close.svg");
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+#main .content-wrapper .content .taskManager .btn-group {
+  margin-top: 30px;
+  width: 100%;
+}
+
+#popup {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 40vh;
+  background: #0F2F2F;
+  border-radius: 30px 0 0 0;
+  color: #ffffff;
+}
+
+#popup .content-wrapper {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#popup .content-wrapper .content {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#popup .content-wrapper .content input[type=text] {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+#popup .content-wrapper .content button {
+  width: 50%;
+  background: #4A9797;
+}
+/*# sourceMappingURL=main.css.map */
